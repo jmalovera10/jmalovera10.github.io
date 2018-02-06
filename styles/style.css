@@ -3,6 +3,8 @@ body{
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .title{
@@ -32,15 +34,15 @@ body{
 }
 
 .jumbotron{
-    background: rgba(0,0,0,0.5);
-    margin: 1.5em;
-    padding-bottom: 1em;
+    //margin: 1.5em;
+    background: rgba(0,0,0,0);
+    padding-bottom: 0.5em;
 }
 
 #name-header{
     color: rgb(150,150,150);
     font-family: 'Russo One', sans-serif;
-    padding-top: 1em;
+    padding-top: 1.2em;
 }
 
 #name-sub-header{
@@ -49,13 +51,33 @@ body{
     color: rgb(170,170,170);
 }
 
-.image-title{
+.image-home{
     border-radius: 50%;
     height: 20em;
     width: 20em;
+    padding: 1em;
     margin: auto;
 }
 
 .center-items{
     text-align: center;
+    margin: auto;
+    position: center;
+
+}
+
+.home{
+    background: rgba(0,0,0,0.5);
+}
+
+.education{
+    background: rgba(0,0,0,1);
+}
+
+.image-education{
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+    margin: auto;
 }

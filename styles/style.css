@@ -9,9 +9,14 @@ body{
 
 .title{
     font-family: 'Russo One', sans-serif;
-    font-size: 30px;
-    padding-left: 5px;
-    padding-top: 7px;
+    font-size: 20px;
+}
+
+.nav-item{
+    padding-left: 1em;
+    padding-right: 1em;
+    color: rgb(210,210,210);
+    font-weight: bold;
 }
 
 .image-navbar{
@@ -35,14 +40,8 @@ body{
 
 .home{
     background: rgba(0,0,0,0.5);
-    border-top: solid 10.5em rgba(0,0,0,0);
-    border-bottom: solid 10.5em rgba(0,0,0,0);
-}
-
-.jumbotron{
-    //margin: 1.5em;
-    background: rgba(0,0,0,0);
-    padding-bottom: 0.5em;
+    margin-top: 7.5em;
+    margin-bottom: 7.5em;
 }
 
 #name-header{
@@ -82,38 +81,38 @@ body{
     text-align: center;
     font-size: 50px;
     border-bottom: solid 2px rgb(170,170,170);
-    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
 }
 
 .education{
     background: rgba(30,30,30,1);
-    border: solid 5em rgba(170,170,170,0);
 }
 
 .image-education{
-    border-radius: 50%;
+    border-radius: 100%;
     height: 20em;
     width: 20em;
-    padding: 1em;
+    padding: 2em;
     margin: auto;
 }
 
-.education-electronic{
-    color: rgb(170,170,170);
+.education-card{
+    padding: 2em;
+}
+
+.card-title{
     font-family: 'Russo One', sans-serif;
 }
 
-.education-electronic h4{
-     font-size: 40px;
- }
-
-.education-systems{
-    color: rgb(170,170,170);
-    font-family: 'Russo One', sans-serif;
+.electronic-card{
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
-.education-systems h4{
-    font-size: 40px;
+.systems-card{
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 @media (max-width: 978px) {
@@ -123,4 +122,13 @@ body{
         border-bottom: solid 4em rgba(0,0,0,0);
     }
 
+}
+
+@media (min-width:34em) {
+    .card
+    {
+        width: 29%;
+        flex-wrap: wrap;
+        flex: initial;
+    }
 }

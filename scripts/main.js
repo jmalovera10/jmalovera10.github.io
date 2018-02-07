@@ -1,5 +1,5 @@
 function main(){
-    //$('.home').hide();
-    $('.home').fadeIn(1000);
+    //$('#name-header').hide();
+    //$('#name-header').fadeIn(1000);
 }
 $(document).ready(main);

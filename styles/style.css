@@ -47,19 +47,21 @@ body{
 #name-header{
     color: rgb(170,170,170);
     font-family: 'Russo One', sans-serif;
-    padding-top: 1.2em;
+    padding-top: 5%;
+    font-size: 400%;
 }
 
 #name-sub-header{
     font-family: 'Russo One', sans-serif;
     font-style: italic;
+    font-size: 150%;
     color: rgb(170,170,170);
 }
 
 .image-home{
     border-radius: 50%;
-    max-height: 20em;
-    max-width: 20em;
+    max-height: 80%;
+    max-width: 80%;
     padding: 1em;
     margin: auto;
 }
@@ -119,4 +121,23 @@ body{
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
+}
+
+.experience-title{
+    background: rgba(30,30,30,0.5);
+}
+
+.experience-title h1{
+    color: rgb(170,170,170);
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid 2px rgb(170,170,170);
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+.card-img-top{
+    height: 40%;
+    width: 40%;
 }

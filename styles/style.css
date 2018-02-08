@@ -1,12 +1,4 @@
 body{
-    background-image: url("/images/tikal.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -44,8 +36,19 @@ body{
 
 .home{
     background: rgba(0,0,0,0.5);
-    margin-top: 7.5em;
-    margin-bottom: 7.5em;
+    border-top: solid 7.5em rgba(0,0,0,0);
+    border-bottom: solid 7.5em rgba(0,0,0,0);
+}
+
+.home-header{
+    background-image: url("/images/tikal.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #name-header{

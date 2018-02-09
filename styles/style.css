@@ -93,7 +93,7 @@ body {
     color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
@@ -149,7 +149,7 @@ body {
     color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
@@ -163,7 +163,7 @@ body {
     color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
@@ -177,7 +177,7 @@ body {
     color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
@@ -191,7 +191,21 @@ body {
     color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    border-bottom: solid 2px rgb(170, 170, 170);
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+.contact-title {
+    background: rgba(30, 30, 30, 0.5);
+}
+
+.contact-title h1 {
+    color: rgb(170, 170, 170);
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 40px;
     border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;

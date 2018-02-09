@@ -1,31 +1,36 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
 
-.title{
+.title {
     font-family: 'Russo One', sans-serif;
     font-size: 20px;
 }
 
-.nav-item{
+.scrollUp {
+    transition: all 0.5s;
+    transform: translateY(-80px);
+}
+
+.nav-item {
     padding-left: 1em;
     padding-right: 1em;
-    color: rgb(210,210,210);
+    color: rgb(210, 210, 210);
     font-weight: bold;
 }
 
-.image-navbar{
+.image-navbar {
     height: 3em;
     width: 3em;
     border-radius: 50%;
 }
 
-.option{
+.option {
     font-weight: bold;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin: 0;
     border-left: 15px;
     padding: 10px;
@@ -34,13 +39,13 @@ body{
     text-align: justify;
 }
 
-.home{
-    background: rgba(0,0,0,0.5);
-    border-top: solid 6em rgba(0,0,0,0);
-    border-bottom: solid 6em rgba(0,0,0,0);
+.home {
+    background: rgba(0, 0, 0, 0.5);
+    border-top: solid 6em rgba(0, 0, 0, 0);
+    border-bottom: solid 6em rgba(0, 0, 0, 0);
 }
 
-.home-header{
+.home-header {
     background-image: url("/images/tikal.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -51,21 +56,21 @@ body{
     -o-background-size: cover;
 }
 
-#name-header{
-    color: rgb(170,170,170);
+#name-header {
+    color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     padding-top: 5%;
     font-size: 300%;
 }
 
-#name-sub-header{
+#name-sub-header {
     font-family: 'Russo One', sans-serif;
     font-style: italic;
     font-size: 100%;
-    color: rgb(170,170,170);
+    color: rgb(170, 170, 170);
 }
 
-.image-home{
+.image-home {
     border-radius: 50%;
     max-height: 100%;
     max-width: 100%;
@@ -73,32 +78,32 @@ body{
     margin: auto;
 }
 
-.center-items{
+.center-items {
     text-align: center;
     margin: auto;
     position: center;
 
 }
 
-.education-title{
-    background: rgba(30,30,30,1);
+.education-title {
+    background: rgba(30, 30, 30, 1);
 }
 
-.education-title h1{
-    color: rgb(170,170,170);
+.education-title h1 {
+    color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     text-align: center;
     font-size: 50px;
-    border-bottom: solid 2px rgb(170,170,170);
+    border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
 }
 
-.education{
-    background: rgba(30,30,30,1);
+.education {
+    background: rgba(30, 30, 30, 1);
 }
 
-.image-education{
+.image-education {
     border-radius: 100%;
     max-height: 20em;
     max-width: 20em;
@@ -106,20 +111,20 @@ body{
     margin: auto;
 }
 
-.education-card{
+.education-card {
     padding: 2em;
 }
 
-.card-title{
+.card-title {
     font-family: 'Russo One', sans-serif;
 }
 
-.electronic-card{
+.electronic-card {
     padding-top: 1em;
     padding-bottom: 3em;
 }
 
-.systems-card{
+.systems-card {
     padding-top: 1em;
     padding-bottom: 3em;
 }
@@ -130,21 +135,63 @@ body{
     margin-bottom: 10px; /* Added */
 }
 
-.experience-title{
-    background: rgba(30,30,30,0.5);
+.card-img-top {
+    height: 40%;
+    width: 40%;
 }
 
-.experience-title h1{
-    color: rgb(170,170,170);
+.experience-title {
+    background: rgba(30, 30, 30, 0.5);
+}
+
+.experience-title h1 {
+    color: rgb(170, 170, 170);
     font-family: 'Russo One', sans-serif;
     text-align: center;
     font-size: 50px;
-    border-bottom: solid 2px rgb(170,170,170);
+    border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
 }
 
-.card-img-top{
-    height: 40%;
-    width: 40%;
+.skills-title {
+    background: rgba(30, 30, 30, 0.5);
+}
+
+.skills-title h1 {
+    color: rgb(170, 170, 170);
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid 2px rgb(170, 170, 170);
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+.projects-title {
+    background: rgba(30, 30, 30, 0.5);
+}
+
+.projects-title h1 {
+    color: rgb(170, 170, 170);
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid 2px rgb(170, 170, 170);
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+.hobbies-title {
+    background: rgba(30, 30, 30, 0.5);
+}
+
+.hobbies-title h1 {
+    color: rgb(170, 170, 170);
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid 2px rgb(170, 170, 170);
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
 }

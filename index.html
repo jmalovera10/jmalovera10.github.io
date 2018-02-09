@@ -60,15 +60,15 @@
     <div class="container-fluid">
         <div class="row justify-content-around home">
             <div class="col-xs-8 center-items">
-                <h1 id="name-header">
+                <h1 id="name-header" class="wow slideInLeft">
                     Juan Manuel Lovera
                 </h1>
-                <h4 id="name-sub-header">
+                <h4 id="name-sub-header" class="wow slideInLeft">
                     Future engineer/entrepreneur/marathon racer
                 </h4>
             </div>
             <div class="col-xs-4 center-items">
-                <img class="image-home img-responsive" src="images/logo_lovera.jpg" alt="foto_lovera2"/>
+                <img class="image-home img-responsive wow slideInRight" src="images/logo_lovera.jpg" alt="foto_lovera2"/>
             </div>
         </div>
     </div>
@@ -82,7 +82,7 @@
         </div>
     </div>
     <div class="row education justify-content-around">
-        <div class="col-sm-4 electronic-card ">
+        <div class="col-sm-4 electronic-card wow bounceInUp">
             <div class="card education-card" style="width: 90%;">
                 <img class="card-img-top center-items" src="images/caobos_logo.png" alt="uniandes_logo">
                 <div class="card-block">
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 electronic-card ">
+        <div class="col-sm-4 electronic-card wow bounceInUp">
             <div class="card education-card" style="width: 90%;">
                 <img class="card-img-top center-items" src="images/uniandes_logo.jpeg" alt="uniandes_logo">
                 <div class="card-block">
@@ -105,7 +105,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 systems-card ">
+        <div class="col-sm-4 systems-card wow bounceInUp">
             <div class="card education-card" style="width: 90%;">
                 <img class="card-img-top center-items" src="images/uniandes_logo.jpeg" alt="uniandes_logo">
                 <div class="card-block">
@@ -180,5 +180,9 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 <script src="scripts/main.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+/*---------------------------------
+General Styles
+ ----------------------------------*/
+
 html{
     height: 100%;
 }
@@ -8,6 +12,9 @@ body {
     height: 100%;
 }
 
+/*---------------------------------
+Navbar Styles
+ ----------------------------------*/
 .title {
     font-family: 'Russo One', sans-serif;
     font-size: 20px;
@@ -44,6 +51,10 @@ body {
     overflow-y: auto;
     margin: 0;
 }
+
+/*---------------------------------
+Home Styles
+ ----------------------------------*/
 
 .home {
     background: rgba(0, 0, 0, 0.5);
@@ -91,6 +102,10 @@ body {
 
 }
 
+/*---------------------------------
+Education Styles
+ ----------------------------------*/
+
 .education-title {
     background: rgba(30, 30, 30, 1);
 }
@@ -120,6 +135,10 @@ body {
     padding: 2em;
     margin: auto;
 }
+
+/*---------------------------------
+Card Styles
+ ----------------------------------*/
 
 .education-card {
     padding: 2em;
@@ -157,6 +176,10 @@ body {
     width: 40%;
 }
 
+/*---------------------------------
+Experience Styles
+ ----------------------------------*/
+
 .experience-block{
     background-image: url("/images/lovera_estoraques.JPG");
     background-attachment: fixed;
@@ -180,6 +203,14 @@ body {
     border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
+}
+
+/*---------------------------------
+Timeline Styles
+ ----------------------------------*/
+
+.timeline-date{
+    color: rgb(110,30,30);
 }
 
 .timeline {
@@ -323,6 +354,10 @@ body {
     margin-top: 5px;
 }
 
+/*---------------------------------
+Skills Styles
+ ----------------------------------*/
+
 .skills-title {
     background: rgba(30, 30, 30, 0.5);
 }
@@ -336,6 +371,10 @@ body {
     padding-top: 0.5em;
     padding-bottom: 0.2em;
 }
+
+/*---------------------------------
+Projects Styles
+ ----------------------------------*/
 
 .projects-title {
     background: rgba(30, 30, 30, 0.5);
@@ -351,6 +390,10 @@ body {
     padding-bottom: 0.2em;
 }
 
+/*---------------------------------
+Hobbies Styles
+ ----------------------------------*/
+
 .hobbies-title {
     background: rgba(30, 30, 30, 0.5);
 }
@@ -364,6 +407,10 @@ body {
     padding-top: 0.5em;
     padding-bottom: 0.2em;
 }
+
+/*---------------------------------
+Contact Styles
+ ----------------------------------*/
 
 .contact-title {
     background: rgba(30, 30, 30, 0.5);

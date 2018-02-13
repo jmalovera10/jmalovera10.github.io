@@ -47,8 +47,6 @@ Navbar Styles
 }
 
 .container-fluid{
-    height: 100%;
-    overflow-y: auto;
     margin: 0;
 }
 
@@ -59,7 +57,6 @@ Home Styles
 .home {
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
-    overflow-y: auto;
 }
 
 .home-header {
@@ -72,7 +69,6 @@ Home Styles
     -moz-background-size: cover;
     -o-background-size: cover;
     height: 100%;
-    overflow-y: auto;
 }
 
 #name-header {
@@ -210,7 +206,7 @@ Timeline Styles
  ----------------------------------*/
 
 .timeline-date{
-    color: rgb(110,30,30);
+    color: rgb(150,30,30);
 }
 
 .timeline {

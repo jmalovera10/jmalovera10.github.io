@@ -397,6 +397,7 @@ Skills Styles
     background-color: #4CAF50;
     border: solid rgba(0,0,0,0) 10px;
     margin-top: 10px;
+    border-radius: 20px;
     margin-bottom: 10px;
     text-align: center; /* To center it horizontally (if you want) */
     line-height: 30px; /* To center it vertically */

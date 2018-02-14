@@ -8,26 +8,38 @@ function main(){
             $(".home-header").height(tamPagina);
         }
     });*/
+
+    /*----------------------------------------
+    Skill set initialization inside index.html
+     -----------------------------------------*/
     function callback(data){
         var i = 1;
         data.forEach(function(d){
             $("#stats").append($("<div class='col-sm-8'>"))
                 .append($("<div class='row justify-content-around'>")
-                .append($("<div class='col-sm-8'>")
-                    .append($("<div id='my-progress'>")
-                        .append($("<div id='skill"+i+"'>")
-                            .text("10%"))))
-                .append($("<div class='col-xs-4'>"))
+                    .append($("<div class='col-sm-4'>")
+                        .append($("<img class='skill-image'>")
+                            .attr("src",d.image_path)
+                            .attr("alt",d.name)))
+                    .append($("<div class='col-sm-8'>")
+                        .append($("<div id='my-progress'>")
+                            .append($("<div id='skill"+i+"'>")
+                                .text("10%"))))
             );
-            move(d.value,"skill"+i);
+            //if($('#skill'+i).visible(true)){
+                move(d.value,"skill"+i);
+            //};
             i++;
         })
 
     }
 
+    //Data upload
     $.getJSON("data/skills.json",callback);
 
-    //Dynamic barfill function
+    /*----------------------
+    Dynamic barfill function
+     -----------------------*/
     function move(value, skill) {
         var elem = document.getElementById(skill);
         var width = 10;

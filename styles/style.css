@@ -375,10 +375,19 @@ Skills Styles
     width: 10%;
 }
 
+#lovera-skills-image h2{
+    color: rgb(180,180,180);
+    font-family: 'Russo One', sans-serif;;
+}
+
 #lovera-character{
-    width: 80%;
-    height: 80%;
+    width: 100%;
     border-radius: 25px;
+}
+
+.skill-image{
+    border-radius: 50%;
+    width: 40%;
 }
 
 #stats div[id^='skill']{

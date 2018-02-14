@@ -1,26 +1,52 @@
 [
   {
+    "name": "java_logo",
     "value": 100,
-    "image_path": ""
+    "image_path": "images/java.jpg"
   },
   {
-    "value": 90,
-    "image_path": ""
-  },
-  {
-    "value": 80,
-    "image_path": ""
-  },
-  {
+    "name": "python_logo",
     "value": 70,
-    "image_path": ""
+    "image_path": "images/python.jpg"
   },
   {
+    "name": "c_plusplus_logo",
     "value": 60,
-    "image_path": ""
+    "image_path": "images/c_plusplus.png"
   },
   {
-    "value": 50,
-    "image_path": ""
+    "name": "html_css_logo",
+    "value": 90,
+    "image_path": "images/html_css.jpg"
+  },
+  {
+    "name": "javascript_logo",
+    "value": 60,
+    "image_path": "images/javascript.jpg"
+  },
+  {
+    "name": "sql_logo",
+    "value": 90,
+    "image_path": "images/sql.png"
+  },
+  {
+    "name": "arduino_logo",
+    "value": 100,
+    "image_path": "images/arduino.png"
+  },
+  {
+    "name": "raspberry_logo",
+    "value": 80,
+    "image_path": "images/raspberry.png"
+  },
+  {
+    "name": "matlab_logo",
+    "value": 80,
+    "image_path": "images/matlab.png"
+  },
+  {
+    "name": "labview_logo",
+    "value": 80,
+    "image_path": "images/labview.jpg"
   }
 ]

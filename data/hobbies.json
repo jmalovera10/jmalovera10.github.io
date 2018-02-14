@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Rugby",
+    "img_src":"images/rugby.png"
+  },
+  {
+    "name":"Basketball",
+    "img_src":"images/basketball.png"
+  },
+  {
+    "name":"Videogames",
+    "img_src":"images/videogames.png"
+  },
+  {
+    "name":"Marathons",
+    "img_src":"images/marathon.png"
+  },
+  {
+    "name":"Coding",
+    "img_src":"images/coding.png"
+  }
+]

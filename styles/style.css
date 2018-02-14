@@ -439,6 +439,25 @@ Hobbies Styles
     padding-bottom: 0.2em;
 }
 
+.hobbies-block{
+    background: rgba(30, 30, 30, 1);
+    padding: 5px;
+    color: beige;
+}
+
+#hobbies{
+    border: solid 5rem rgba(0,0,0,0);
+}
+
+.hobbies-description{
+    font-family: 'Righteous', cursive
+}
+
+.hobbies-image{
+    border-radius: 50%;
+    height: 100%;
+}
+
 /*---------------------------------
 Contact Styles
  ----------------------------------*/

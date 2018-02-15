@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script async src="https://www.youtube.com/iframe_api"></script>
 
     <!--Local styles import-->
     <link href="styles/style.css" rel="stylesheet" type="text/css">
@@ -255,7 +256,7 @@
 
 
 <!--Skills Section-->
-<div class="container-fluid">
+<div class="container-fluid skills">
     <div class="row justify-content-around skills-title">
         <div class="col">
             <h1 id="skills-header">Skills</h1>
@@ -280,6 +281,12 @@
 
 <!--Hobbies Section-->
 <div class="container-fluid">
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/R9wa-7tpods?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&enablejsapi=1"
+                    id="rugby-background" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
     <div class="row pagination-centered hobbies-title">
         <div class="col">
             <h1 id="hobbies-header">Hobbies</h1>
@@ -297,7 +304,7 @@
             <h1 id="contact-header">Contact</h1>
         </div>
     </div>
-    <div class="row justify-content-around">
+    <div class="row justify-content-around contact-block">
         <div class="col-sm-2 center-items">
             <a href="https://github.com/jmalovera10" target="_blank">
                 <span class="fa-stack fa-4x">
@@ -315,7 +322,7 @@
             </a>
         </div>
         <div class="col-sm-2 center-items">
-            <a href="jma.lovera10@uniandes.edu.co" target="_blank">
+            <a href="mailto:jma.lovera10@uniandes.edu.co?">
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-square-o fa-stack-2x"></i>
                     <i class="fa fa-envelope fa-stack-1x"></i>
@@ -366,6 +373,35 @@
 
 <script>
     new WOW().init();
+</script>
+
+<script>
+    function onYouTubeIframeAPIReady() {
+
+        var player;
+
+        player = new YT.Player('rugby-background', {
+            videoId: 'nfk6sCzRTbM',     // THE VIDEO ID.
+            width: 560,
+            height: 316,
+            playerVars: {
+                'autoplay': 1,
+                'controls': 1,
+                'showinfo': 0,
+                'modestbranding': 0,
+                'loop': 1,
+                'fs': 0,
+                'cc_load_policty': 0,
+                'iv_load_policy': 3
+            },
+            events: {
+                'onReady': function (e) {
+                    e.target.mute();
+                    e.target.setVolume(50);      // YOU CAN SET VALUE TO 100 FOR MAX VOLUME.
+                }
+            }
+        });
+    }
 </script>
 
 </body>

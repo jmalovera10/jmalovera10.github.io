@@ -183,6 +183,9 @@ Experience Styles
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: solid 10px rgba(30,30,30,1);
 }
 
 .experience-title {
@@ -352,6 +355,12 @@ Timeline Styles
 Skills Styles
  ----------------------------------*/
 
+.skills{
+    padding-top: 0;
+    margin-top: 0 ;
+    border-top: 0;
+}
+
 .skills-title {
     background: rgba(30, 30, 30, 1);
 }
@@ -374,6 +383,7 @@ Skills Styles
 #lovera-skills-image{
     height: 10%;
     width: 10%;
+    padding-top: 3em;
 }
 
 #lovera-skills-image h2{
@@ -382,8 +392,9 @@ Skills Styles
 }
 
 #lovera-character{
-    width: 80%;
+    width: 70%;
     border-radius: 25px;
+    padding-bottom: 3em;
 }
 
 .skill-image{
@@ -397,7 +408,7 @@ Skills Styles
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #4CAF50;
+    background-color: rgb(150,30,30);
     border: solid rgba(0,0,0,0) 10px;
     margin-top: 10px;
     border-radius: 20px;
@@ -411,8 +422,45 @@ Skills Styles
 Hobbies Styles
  ----------------------------------*/
 
+* { box-sizing: border-box; }
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#vidtop-content {
+    top: 0;
+    color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+    .vid-info { width: 50%; padding: .5rem; }
+    .vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+    .vid-info .acronym { display: none; }
+}
+
 .hobbies-title {
-    background: rgba(30, 30, 30, 1);
+    background: rgba(30, 30, 30, 0.5);
 }
 
 .hobbies-title h1 {
@@ -426,7 +474,7 @@ Hobbies Styles
 }
 
 .hobbies-block{
-    background: rgba(30, 30, 30, 1);
+    background: rgba(30, 30, 30, 0.5);
     padding: 5px;
     color: beige;
 }
@@ -462,6 +510,14 @@ Contact Styles
     padding-bottom: 0.2em;
 }
 
+.contact-block{
+    background: rgba(30, 30, 30, 1);
+    border: solid 4em rgba(0,0,0,0);
+}
+
+.fa{
+    color: rgb(150,30,30);
+}
 
 /*---------------------------------
 Footer Styles

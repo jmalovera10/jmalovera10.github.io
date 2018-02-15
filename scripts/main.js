@@ -1,4 +1,4 @@
-/* global $ */
+/*global $*/
 
 function main() {
     'use strict';

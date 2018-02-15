@@ -18,5 +18,9 @@
   {
     "name":"Coding",
     "img_src":"images/coding.png"
+  },
+  {
+    "name":"Jamming",
+    "img_src":"images/jamming.png"
   }
 ]

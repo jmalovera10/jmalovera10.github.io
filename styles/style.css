@@ -15,6 +15,7 @@ body {
 /*---------------------------------
 Navbar Styles
  ----------------------------------*/
+
 .title {
     font-family: 'Russo One', sans-serif;
     font-size: 20px;
@@ -475,4 +476,18 @@ Contact Styles
     border-bottom: solid 2px rgb(170, 170, 170);
     padding-top: 0.5em;
     padding-bottom: 0.2em;
+}
+
+
+/*---------------------------------
+Footer Styles
+ ----------------------------------*/
+
+.footer{
+    background-color: #505050;
+    color: white;
+}
+
+.footer-text{
+    padding-top: 10px;
 }

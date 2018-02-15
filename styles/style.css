@@ -388,6 +388,8 @@ Skills Styles
 
 .skill-image{
     border-radius: 50%;
+    border: solid rgba(0,0,0,0) 1px;
+    padding: 2px;
     width: 40%;
 }
 
@@ -403,24 +405,6 @@ Skills Styles
     text-align: center; /* To center it horizontally (if you want) */
     line-height: 30px; /* To center it vertically */
     color: white;
-}
-
-/*---------------------------------
-Projects Styles
- ----------------------------------*/
-
-.projects-title {
-    background: rgba(30, 30, 30, 1);
-}
-
-.projects-title h1 {
-    color: rgb(170, 170, 170);
-    font-family: 'Exo 2', sans-serif;
-    text-align: center;
-    font-size: 40px;
-    border-bottom: solid 2px rgb(170, 170, 170);
-    padding-top: 0.5em;
-    padding-bottom: 0.2em;
 }
 
 /*---------------------------------

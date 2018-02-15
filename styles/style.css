@@ -378,6 +378,8 @@ Skills Styles
 .skills-block{
     background: rgba(30, 30, 30, 1);
     padding: 5px;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 
 #lovera-skills-image{
@@ -392,7 +394,7 @@ Skills Styles
 }
 
 #lovera-character{
-    width: 70%;
+    width: 80%;
     border-radius: 25px;
     padding-bottom: 3em;
 }

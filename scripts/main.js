@@ -1,7 +1,7 @@
 /*global $*/
-
+'use strict';
 function main() {
-    'use strict';
+
     /*$(window).resize(function(){
         var tamPagina = $(document).height();
         if(tamPagina>=$(".home-header").height){

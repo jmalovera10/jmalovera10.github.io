@@ -23,12 +23,12 @@ function main() {
             move(d.value, "skill" + i);
             //};
             i++;
-        })
+        });
 
     }
 
     /*----------------------------------------
-    Hobbies set initialization inside index.html
+    Hobbies set initialization inside index.htmlx
      -----------------------------------------*/
     function callbackHobbies(data) {
         data.forEach(function (d) {
@@ -42,8 +42,8 @@ function main() {
                     .append($("<div class='col center-items'>")
                         .append($("<h2 class='hobbies-description'>")
                             .text(d.name))))
-            )
-        })
+            );
+        });
     };
 
 

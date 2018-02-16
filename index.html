@@ -8,7 +8,8 @@
 
     <!--Page icon-->
     <link rel="icon" href="images/logo_lovera.jpg">
-
+    
+    <!-- Andrés: Es conveniente utilizar elementos meta para hacer especificaciones sobre la página, como  description, author y keywords-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Fonts import-->
@@ -28,13 +29,15 @@
     <link rel="stylesheet" href="styles/animate.css">
 </head>
 <body>
-
+<!-- Andrés: Sería bueno modificar la barra de navegación para que se mantenga fija al recorrer toda la página  -->
 <!--Navbar Header-->
+<!-- Andrés: Se recomienda no hacer estilos dentro del HTML  -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #505050;">
     <a href="#">
         <img class="navbar-brand image-navbar" src="images/logo_lovera.jpg" alt="foto_lovera"/>
     </a>
     <a class="navbar-brand title" href="#">
+        <!-- Andrés: Se recomienda no hacer estilos dentro del HTML  -->
         <div class="title" style="color: rgb(210,210,210);">
             JML
         </div>
@@ -367,6 +370,8 @@
 
 <!-- add wow plugin -->
 <script src="scripts/wow.min.js"></script>
+    
+<!-- Andrés: Como buena práctica y para mayor cohesión, se recomienda no tener fragmenos de JS dentro del HTML, sería mejor crear archivos .js designados con la funcionalidad que necesita e importarlos.  -->
 
 <script>
     new WOW().init();

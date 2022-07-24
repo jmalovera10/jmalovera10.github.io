@@ -1,11 +1,21 @@
 {
-  "extends": ["airbnb", "airbnb/hooks"],
+  "extends": ["airbnb", "prettier", "airbnb/hooks", "plugin:node/recommended"],
+  "plugins": ["prettier"],
   "env": {
     "node": true,
     "es6": true,
     "browser": true
   },
   "rules": {
-    "no-console": "off"
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off"
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }

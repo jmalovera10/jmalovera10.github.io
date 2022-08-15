@@ -1,21 +1,9 @@
 import React from "react";
 
-export default function Education() {
+export default function JobExperience() {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="grid grid-cols-2 gap-4 mt-8">
-          <img
-            className="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-            alt="office content 1"
-          />
-          <img
-            className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-            alt="office content 2"
-          />
-        </div>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -122,6 +110,18 @@ export default function Education() {
             </p>
           </li>
         </ol>
+        <div className="grid grid-cols-2 gap-4 mt-8">
+          <img
+            className="w-full rounded-lg"
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
+            alt="office content 1"
+          />
+          <img
+            className="mt-4 w-full lg:mt-10 rounded-lg"
+            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+            alt="office content 2"
+          />
+        </div>
       </div>
     </section>
   );
